@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import random
-number = random.randint(-10, 10)
+number = random.randint(-10000, 10000)
+# YOUR CODE HERE
 # YOUR CODE HERE
 # Print the number and its sign
 print(number, end=' ')
