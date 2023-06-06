@@ -12,7 +12,7 @@ if number >= 0:
 else:
     sign = "-"
 
-if last_digit > 5:
+if last_digit > 5 and number >= 0:
     print(f"{prefix} {number} {suffix} {sign}{last_digit} and is greater than 5")
 elif last_digit == 0:
     print(f"{prefix} {number} {suffix} {sign}{last_digit} and is 0")
