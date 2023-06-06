@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-import string
-
-for char in string.ascii_lowercase:
-    print(char, end='')
+for char in range(ord('a'), ord('z') + 1):
+    print(chr(char), end='')
 
 print()  # Print a new line after printing the alphabet
+
