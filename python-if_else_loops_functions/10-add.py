@@ -2,10 +2,6 @@
 def add(a, b):
     return a + b
 
-
-
-
-
 """
           Write a function that adds two integers and returns the result.
 
