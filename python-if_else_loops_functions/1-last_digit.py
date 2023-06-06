@@ -13,4 +13,4 @@ if last_digit > 5 and number >= 0:
 elif last_digit == 0:
     print(f"{prefix} {number} {suffix} {sign}{last_digit} and is 0")
 else:
-    print(f"{prefix} {number} {suffix} -{last_digit} and is less than 6 and not 0")
+    print(f"{prefix} {number} {suffix} {sign}{last_digit} and is less than 6 and not 0")
