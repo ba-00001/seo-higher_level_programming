@@ -5,10 +5,10 @@ number = random.randint(-10, 10)
 #print(number)
 
 if number > 0:
-    print("is positive")
+    print(str(number) + " is positive")
 elif number == 0:
-    print("is zero")
+    print(str(number) +" is zero")
 else:
-    print("is negative")
+    print(str(number) +" is negative")
 #print()
 
