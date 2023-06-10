@@ -5,4 +5,3 @@ for num1 in range(10):
             print("{:d}{:d}, ".format(num1, num2), end="")
         else:
             print("{:d}{:d}".format(num1, num2))
-
