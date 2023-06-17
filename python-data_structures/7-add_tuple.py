@@ -5,8 +5,10 @@ def add_tuple(tuple_a=(), tuple_b=()):
     a = tuple_a[:2] + (0,) * (2 - len(tuple_a))
     b = tuple_b[:2] + (0,) * (2 - len(tuple_b))
 
-    # The first element of the resulting tuple is the addition of the first elements of each argument
-    # The second element of the resulting tuple is the addition of the second elements of each argument
+    # The first element of the resulting tuple
+    # is the addition of the first elements of each argument
+    # The second element of the resulting
+    # tuple is the addition of the second elements of each argument
     result = (a[0] + b[0], a[1] + b[1])
 
     return result
