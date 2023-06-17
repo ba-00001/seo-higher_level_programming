@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-def max_integer(my_list=[]):
-    if len(my_list) == 0:
-        return None
-    max_value = my_list[0]
+def divisible_by_2(my_list=[]):
+    list_result = []
     for num in my_list:
-        if num > max_value:
-            max_value = num
-    return max_value
+        if num % 2 == 0:
+            list_result.append(True)
+        else:
+            list_result.append(False)
+    return list_result
