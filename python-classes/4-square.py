@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""
+Module: square
+This module contains the Square class.
+"""
+
+
 class Square:
     """
     Square class represents a square shape.
