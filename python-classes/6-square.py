@@ -82,9 +82,9 @@ class Square:
 
     @position.setter
     def position(self, value):
+
         """
         Sets the position of the square.
-
         Args:
             value (tuple): The new
             position of the square.
