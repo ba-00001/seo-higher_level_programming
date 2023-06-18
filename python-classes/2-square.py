@@ -3,8 +3,9 @@
 
 
 class Square:
+    """ Module is documented"""
     def __init__(self, size=0):
-        """ Module is documented"""
+
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         elif size < 0:
