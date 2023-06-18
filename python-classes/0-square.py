@@ -3,4 +3,5 @@
 """ Module is documented"""
 class Square:
     """ Module is documented"""
+
     pass
