@@ -86,10 +86,12 @@ class Square:
         Sets the position of the square.
 
         Args:
-            value (tuple): The new position of the square.
+            value (tuple): The new
+            position of the square.
 
         Raises:
-            TypeError: If value is not a tuple of 2 positive integers.
+            TypeError: If value is not a
+            tuple of 2 positive integers.
         """
         if not isinstance(value, tuple) or len(value) != 2 \
                 or not all(isinstance(coord, int) and coord >= 0 for coord in value):
