@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-
-"""
-This module is used to link a class to a table in a database.
-"""
+""" This module is used to link a class to a table in a database. """
 
 
 import sys
