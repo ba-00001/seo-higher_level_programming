@@ -25,7 +25,8 @@ if __name__ == "__main__":
     cursor = db.cursor()
 
     # Execute the query to retrieve cities of the given state
-    cursor.execute("SELECT GROUP_CONCAT(cities.name SEPARATOR ', ') FROM cities \
+    cursor.execute("SELECT GROUP_CONCAT"
+                   "(cities.name SEPARATOR ', ') FROM cities \
                     JOIN states ON cities.state_id = states.id \
                     WHERE states.name = %s \
                     ORDER BY cities.id ASC", (state_name,))
