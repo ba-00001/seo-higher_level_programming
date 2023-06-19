@@ -24,7 +24,7 @@ if __name__ == "__main__":
     cursor = db.cursor()
 
     # Create the SQL query with user input
-    query = "SELECT * FROM states WHERE name = '{}' ORDER BY id ASC".format(state_name)
+    query = "SELECT * FROM states WHERE BINARY name LIKE '{}' ORDER BY id ASC".format(state_name)
 
     # Execute the query with user input
     cursor.execute(query)
