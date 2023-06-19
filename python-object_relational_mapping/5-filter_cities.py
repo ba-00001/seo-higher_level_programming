@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Script that lists all cities of a
- given state from the database hbtn_0e_4_usa"""
+given state from the database hbtn_0e_4_usa"""
 
 import MySQLdb
 import sys
@@ -34,7 +34,7 @@ if __name__ == "__main__":
     row = cursor.fetchone()
 
     # Display the results
-    if row:
+    if row and row[0]:
         print(row[0])
 
     # Close the cursor and database connection
