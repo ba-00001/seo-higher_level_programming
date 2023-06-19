@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Script that displays all values in the states table of hbtn_0e_0_usa where name matches the argument"""
+"""Script that displays all values in the states
+table of hbtn_0e_0_usa where name matches the argument"""
 
 import MySQLdb
 import sys
@@ -24,7 +25,8 @@ if __name__ == "__main__":
     cursor = db.cursor()
 
     # Create the SQL query with user input
-    query = "SELECT * FROM states WHERE BINARY name LIKE '{}' ORDER BY id ASC".format(state_name)
+    query = "SELECT * FROM states " \
+            "WHERE BINARY name LIKE '{}' ORDER BY id ASC".format(state_name)
 
     # Execute the query with user input
     cursor.execute(query)
