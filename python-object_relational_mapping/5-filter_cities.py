@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
     # Display the results
     if row and row[0]:
-        print(row[0])
+        print(row[0], end="")
 
     # Close the cursor and database connection
     cursor.close()
