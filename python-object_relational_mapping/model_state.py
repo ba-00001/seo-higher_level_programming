@@ -4,6 +4,7 @@
 This module is used to link a class to a table in a database.
 """
 
+
 import sys
 from model_state import Base, State
 
