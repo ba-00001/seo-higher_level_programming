@@ -25,4 +25,5 @@ if __name__ == "__main__":
 
     # Print the cities by state
     for city in cities:
-        print("{}: ({}) {}".format(city.state.name, city.id, city.name))
+        state = session.query(State).filter(State.id == city.state_id).first()
+        print("{}: ({}) {}".format(state.name, city.id, city.name))
